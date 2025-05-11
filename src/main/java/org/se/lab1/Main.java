@@ -60,5 +60,9 @@ public class Main {
         graph.randomWalk("random_walk_output.txt");
 
         System.out.println("Finish!");
+
+        // This is use for git change test.
+
+        // This is use for git change test2.
     }
 }
