@@ -59,7 +59,6 @@ public class Main {
 
         graph.randomWalk("random_walk_output.txt");
 
-
-
+        System.out.println("Finish!");
     }
 }
