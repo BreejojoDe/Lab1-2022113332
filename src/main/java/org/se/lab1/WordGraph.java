@@ -334,6 +334,7 @@ public class WordGraph {
         } catch (IOException e) {
             System.err.println("写入文件失败：" + e.getMessage());
         }
+        // git change on B2
     }
 
 

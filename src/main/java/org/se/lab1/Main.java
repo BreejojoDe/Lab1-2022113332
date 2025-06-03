@@ -49,10 +49,10 @@ public class Main {
 
         System.out.print("请输入起点单词：");
 //        String from = input.nextLine();
-        String from = "analyzed";
+        String from = "requested";
         System.out.print("请输入终点单词：");
 //        String to = input.nextLine();
-        String to = "team";
+        String to = "scientist";
         graph.findShortestPath(from, to);
 
         graph.computePageRank(0.85, 100, 1e-6);
@@ -60,5 +60,14 @@ public class Main {
         graph.randomWalk("random_walk_output.txt");
 
         System.out.println("Finish!");
+
+
+        // This is use for git change test.
+
+        // This is use for git change test2.
+
+        // git change on B2
+
+        // git change in IDE
     }
 }
